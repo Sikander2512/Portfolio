@@ -1,0 +1,118 @@
+.section-one {
+    background: url('../pics/background.jpg');
+    object-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 5rem;
+    margin-top: 4rem;
+}
+
+.sectiononetxt {
+    font-size: 1.125rem;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.section-one-bold-txt {
+    font-size: 4.8125rem;
+    font-weight: bolder;
+    color: rgb(253, 86, 42);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.simple {
+    font-size: .9375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 300;
+
+}
+
+.sec-one-logo {
+    width: 30px;
+    height: 30px;
+    margin-bottom: -0.5rem;
+    margin-right: 0.5rem;
+}
+
+.sectiononebtn {
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background: rgb(253, 86, 42);
+    color: white;
+    padding: 15px 2.05625rem;
+    border: none;
+    border-radius: 5px;
+    margin-right: 0.5rem;
+
+}
+
+.section-one-author-img {
+    width: 22rem;
+    border-radius: 20px;
+}
+
+.section-one-author-img img {
+    width: 100%;
+    border-radius: 1.25rem;
+}
+
+@media(max-width:550px) {
+    .section-one {
+      display: flex;
+      flex-direction: column-reverse;
+     padding: 3rem 0rem;
+     margin-right: auto;
+     margin-left: auto;
+     margin-top: 3.5rem;
+    
+       
+    }
+
+    .section-one-bold-txt {
+        font-size: 2.8125rem;
+        font-weight: bolder;
+        color: rgb(253, 86, 42);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .sectiononetxt {
+        font-size: .9375rem;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+    .simple {
+        font-size: .75rem;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-weight: 300;
+
+    }
+    
+.section-one-author-img {
+    width: 280px;
+    border-radius: 20px;
+    margin-top: 1.9375rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.section-one-txt{
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 1rem;
+}
+.sectiononebtn{
+   font-size: 13px;
+   padding:   .9375rem  .625rem;
+}
+
+
+}

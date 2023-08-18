@@ -7,7 +7,7 @@
     align-items: center;
     column-gap: 18.875rem;
     background-color: black;
-    padding: 1rem 1rem;
+    padding: 1.5rem 1rem;
    position: fixed;
    top: 0;
    left: 0;
@@ -21,6 +21,9 @@ a{
     color: white;
     font-weight: bold;
     margin-right: 1.95rem;
+}
+.nav-img{
+    display: block;
 }
 .imgnav{
     width: 7.25rem;
@@ -36,7 +39,9 @@ a{
     display: none;
 }
 @media(max-width:550px){
-   
+   .open{
+    width: fit-content;
+   }
     .hamburger span{
         display: flex;
         flex-direction: column;
@@ -76,8 +81,8 @@ a{
         position: fixed;
         z-index: 1;
         margin: 20px;
-        margin-top: 70px;
-        margin-bottom: 200px;
+        margin-top: 90px;
+        margin-bottom: 280px;
         
     }
    .open .loop a{
@@ -90,9 +95,13 @@ a{
         justify-content: space-between;
         align-items: center;
         column-gap: 0rem;
+        padding: 1rem;
     }
     .imgnav{
         width: 4.25rem;
+    }
+    .nav-img{
+        display: block;
     }
     .nav-txt{
         display: none;

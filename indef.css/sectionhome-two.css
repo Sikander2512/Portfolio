@@ -1,3 +1,7 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .sectionhome-two{
     margin-top: 6rem;
 }
@@ -53,14 +57,31 @@
 
 .creativity:hover{
     rotate: 30deg;
-    transition: 0.5s;
+    transition: 1.5s;
 }
 @media(max-width:550px){
     .home-two-text{
+        margin: 7px;
+        margin-bottom: auto;
+        margin-right: auto;
+        
+        
+    }
+    .subdiv{
+       display: grid;
+       grid-template-columns: 1fr;
+        row-gap: 1.5625rem;
         margin-bottom: auto;
         margin-right: auto;
         width: fit-content;
-        
+    }
+    .creativity{
+        padding: 1.5rem 0.5rem ;
+        padding-top: 4rem;
+        border: solid 0.5px black;
+        border-radius: 8px;
+        width: fit-content;
+        text-align: justify;
     
     }
 }

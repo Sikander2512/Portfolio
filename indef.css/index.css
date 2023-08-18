@@ -1,20 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.nav{
+
+.nav {
     display: flex;
     align-items: center;
     column-gap: 18.875rem;
     background-color: black;
     padding: 1.5rem 1rem;
-   position: fixed;
-   top: 0;
-   left: 0;
-   right: 0;
-   bottom: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 1;
 }
-a{
+
+a {
     text-decoration: none;
     font-size: 19px;
     font-family: Arial, Helvetica, sans-serif;
@@ -22,27 +24,33 @@ a{
     font-weight: bold;
     margin-right: 1.95rem;
 }
-.nav-img{
+
+.nav-img {
     display: block;
 }
-.imgnav{
+
+.imgnav {
     width: 7.25rem;
 }
 
-.hamburger span{
+.hamburger span {
     display: none;
 }
-.overrelaly{
+
+.overrelaly {
     display: none;
 }
-.loop{
+
+.loop {
     display: none;
 }
-@media(max-width:550px){
-   .open{
-    width: fit-content;
-   }
-    .hamburger span{
+
+@media(max-width:550px) {
+    .open {
+        width: fit-content;
+    }
+
+    .hamburger span {
         display: flex;
         flex-direction: column;
         background: white;
@@ -50,61 +58,64 @@ a{
         height: 2px;
         margin-bottom: .25875rem;
     }
-   
-   .open .hamburger  :nth-child(2){
-     display: none;
+
+    .open .hamburger :nth-child(2) {
+        display: none;
     }
-   .open .hamburger :first-child{
+
+    .open .hamburger :first-child {
         transform: rotate(45deg);
         transform-origin: 38%;
     }
-   .open .hamburger :last-child{
+
+    .open .hamburger :last-child {
         transform: rotate(-45deg);
         transform-origin: 27%;
     }
-   .open .overrelaly{
+
+    .open .overrelaly {
         display: block;
         position: fixed;
-        background: linear-gradient(black,white);
+        background: linear-gradient(black, white);
         inset: 0;
         margin-top: 40px;
-        right: 1; 
+        right: 1;
     }
-   .open .loop{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-       row-gap: 1.9375rem;
-        background: white;
-        inset: 0;
+
+    .open .loop {
         position: fixed;
         z-index: 1;
         margin: 20px;
         margin-top: 90px;
-        margin-bottom: 280px;
-        
+        margin-bottom: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 1.1375rem;
+        background: white;
+        inset: 0;
+
+
     }
-   .open .loop a{
+
+    .open .loop a {
         color: black;
         font-size: 1rem;
         font-weight: 300;
     }
-    .nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        column-gap: 0rem;
-        padding: 1rem;
-    }
-    .imgnav{
+
+
+    .imgnav {
         width: 4.25rem;
     }
-    .nav-img{
+
+    .nav-img {
         display: block;
     }
-    .nav-txt{
+
+    .nav-txt {
         display: none;
     }
-    
+
 }

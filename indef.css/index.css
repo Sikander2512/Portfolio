@@ -47,8 +47,9 @@ a {
 
 @media(max-width:550px) {
     .open {
-        width: fit-content;
+        width: 18.75rem;
     }
+    
 
     .hamburger span {
         display: flex;

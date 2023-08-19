@@ -27,10 +27,9 @@
 .creativity{
     padding: 1.5rem 1.5rem;
     padding-top: 4rem;
-    border: solid 0.5px black;
     border-radius: 8px;
     width: fit-content;
-    background: whitesmoke;
+    background:lightgrey;
 }
 .subdiv{
     display: flex;
@@ -56,8 +55,8 @@
     
 }
 .rotate{
-    border: solid black 1px;
-    background: black;
+    
+    background: orangered;
     border-radius: .625rem;
 }
 
@@ -75,18 +74,15 @@
     }
     .subdiv{
        display: flex;
-       justify-content: center;
-       align-items: center;
        flex-direction: column;
         row-gap: 1.5625rem;
+        width: 20.75rem;
         margin-bottom: auto;
         margin-right: auto;
-        width: 20.75rem;
     }
     .creativity{
         padding: 1.5rem 0.5rem ;
         padding-top: 4rem;
-        border: solid 0.5px black;
         border-radius: 8px;
         width: fit-content;
         text-align: justify;

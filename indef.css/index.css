@@ -74,38 +74,23 @@ a {
         transform-origin: 27%;
     }
 
-    .open .overrelaly {
-        display: block;
-        position: fixed;
-        background: linear-gradient(black, white);
-        inset: 0;
-        margin-top: 40px;
-        right: 1;
-    }
-
     .open .loop {
         position: fixed;
-        z-index: 1;
-        margin: 20px;
-        margin-top: 90px;
-        margin-bottom: 250px;
         display: flex;
+        align-items:flex-start;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        row-gap: 1.1375rem;
         background: white;
         inset: 0;
-
-
-    }
+        width: 250px;
+        row-gap: 21px;
+        }
 
     .open .loop a {
         color: black;
         font-size: 1rem;
         font-weight: 300;
+    margin-left: .825rem;
     }
-
 
     .imgnav {
         width: 4.25rem;

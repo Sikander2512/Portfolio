@@ -56,15 +56,14 @@
     
 }
 .rotate{
-    padding: 0.5rem;
     border: solid black 1px;
     background: black;
     border-radius: .625rem;
 }
 
 .creativity:hover{
-    rotate: 30deg;
-    transition: 1.5s;
+    rotate: 10deg;
+    transition: 1s;
 }
 @media(max-width:550px){
     .home-two-text{
@@ -82,7 +81,7 @@
         row-gap: 1.5625rem;
         margin-bottom: auto;
         margin-right: auto;
-        width: 18.75rem;
+        width: 20.75rem;
     }
     .creativity{
         padding: 1.5rem 0.5rem ;

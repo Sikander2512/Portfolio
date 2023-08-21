@@ -29,7 +29,7 @@
 }
 .aboutus-font{
     font-size: 1.125rem;
-    color: gray;
+    color: rgb(128, 92, 92);
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6rem;
     text-align: justify;
@@ -41,7 +41,7 @@ label{
 }
 .text{
     font-size: 1.0625rem;
-    color: gray;
+    color: rgb(122, 99, 99);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
 }

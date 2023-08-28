@@ -4,8 +4,9 @@
 }
 .section-one {
     background: url('../pics/background.jpg');
-    object-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;

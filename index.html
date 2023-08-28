@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="./indef.css/sectionone.css">
     <link rel="stylesheet" href="./indef.css/sectionhome-two.css">
     <link rel="stylesheet" href="./indef.css/Sectionabouts.css">
+    <link rel="stylesheet" href="./indef.css/sectionaboutus-two.css">
+    <link rel="stylesheet" href="./indef.css/blogsection.css">
+    <link rel="stylesheet" href="./indef.css/contact-section.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+
 </head>
 
 <body>
@@ -21,18 +26,19 @@
           hame.classList.add('open');
         }
         ">
-        <div class="nav">
+        <div class="nav" >
+
             <div class="nav-img">
                 <img class="imgnav" src="pics/logo.png" alt="">
             </div>
             <div class="nav-txt">
-                <a href="">Home</a>
-                <a href="">About us</a>
+                <a href="#home">Home</a>
+                <a href="#aboutus">About us</a>
                 <a href="">Services</a>
-                <a href="">Blog </a>
-                <a href="">Contact</a>
+                <a href="#blog">Blog </a>
+                <a href="#contact">Contact</a>
             </div>
-           
+
 
             <div class="hamburger">
                 <span></span>
@@ -46,14 +52,14 @@
         </div>
         <div class="loop">
             <br><br><br>
-            <a href="">Home</a>
-            <a href="">About us</a>
+            <a href="#home">Home</a>
+            <a href="#aboutus">About us</a>
             <a href="">Services</a>
-            <a href="">Blog </a>
-            <a href="">Contact</a>
+            <a href="#blog">Blog </a>
+            <a href="#contact">Contact</a>
         </div>
     </header>
-    <div class="section-one">
+    <div class="section-one" id="home">
         <div class="section-one-txt">
             <p class="sectiononetxt">
                 Hello I'm <br><span class="section-one-bold-txt"> SIKANDER <br> MAQSOOD <br> </span>
@@ -68,6 +74,7 @@
         <div class="section-one-author-img">
             <img src="./pics/p.jpg" alt="">
         </div>
+
     </div>
     <div class="sectionhome-two">
 
@@ -115,7 +122,7 @@
             </div>
         </div>
     </div>
-    <div class="aboutus-section">
+    <div class="aboutus-section" id="aboutus">
         <div class="img-aboutus">
             <img src="pics/Brown Simple Smoke Phone Wallpaper (1).png" alt="">
         </div>
@@ -162,10 +169,124 @@
         </div>
     </div>
 
-    <div class="aboutus-section2">
-        
+    <div class="aboutus-section2" >
+        <div class="aboutussectionheadingtxt">
+            <p class="aboutus2-text">MY SKILLS
+                <br><span class="aboutus2-boldtxt">I'm great in what I do
+                    and I'm loving it</span>
+            </p>
+        </div>
+        <div class="parentaboutus-performence">
+            <div class="aboutus-performence">
+                <div class="performencetxt-div">
+                    <p class="performencetxt">HTML</p>
+                    <p class="performenceratio">84%</p>
+                </div>
+                <div class="parent">
+                    <div class="student"></div>
+                </div>
+            </div>
+            <div class="aboutus-performence">
+                <div class="performencetxt-div">
+                    <p class="performencetxt">CSS</p>
+                    <p class="performenceratio">70%</p>
+                </div>
+                <div class="cssparent">
+                    <div class="cssstudent"></div>
+                </div>
+            </div>
+            <div class="aboutus-performence">
+                <div class="performencetxt-div">
+                    <p class="performencetxt">Bootstrip</p>
+                    <p class="performenceratio">64%</p>
+                </div>
+                <div class="bootparent">
+                    <div class="bootstudent"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="Blog-section1" id="blog">
+        <div class="blogtxt">
+            <p class="blogtxtsection">FROM MY BLOG</p>
+        </div>
+        <div class="blog">
+            <div class="blogpic">
+                <a href="https://web.dev/ta-test-cases/"><img src="pics/reTqGo078zXM3UQ9wgHf (2).jpg" alt=""></a><br>
+                <a class="blogtest" href="https://web.dev/ta-test-cases/">Defining test cases and priorities </a>
+            </div>
+            <div class="blogpic">
+                <a href="https://web.dev/introducing-baseline/"><img src="pics/sikander.avif" alt=""><br></a>
+                <a class="blogtest" href="https://web.dev/introducing-baseline/">Introducing Baseline</a>
+            </div>
+            <div class="blogpic">
+                <a href="https://web.dev/origin-private-file-system/"><img src="pics/books.jpg" alt=""><br></a>
+                <a class="blogtest" href="https://web.dev/origin-private-file-system/">The origin private file
+                    system</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="contactangle">
+        <div class="contactsection" id="contact">
+
+            <p class="contactheadingtxt"><span class="triangle">&#9665</span>Contact<span class="triangle">&#9655</span>
+            </p>
+            <div class="contact">
+                <div class="address">
+                    <div class="icom-img"><img src="./pics/map.png" alt=""></div>
+                    <div> <label class="address" for="">Adress</label>
+                        <p class="addresstxt">Rahim Yar khan ,Punjab ,Pakistan</p>
+                    </div>
+
+                </div>
+                <div class="address">
+                    <div class="icom-img"><img class="email-icon" src="./pics/phone.png" alt=""></div>
+                    <div>
+                        <label class="address" for="">Phone</label>
+                        <p class="addresstxt">03223353200</p>
+                    </div>
+
+                </div>
+                <div class="address">
+                    <div class="icom-img">
+                        <img class="email-icon" src="./pics/Email.png" alt="">
+                    </div>
+                    <div>
+                        <label class="address" for="">Email</label>
+                        <p class="addresstxt">Sikanderesh083@gmail.com</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="wholemapandintoduction">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d347257.75615220456!2d70.23177414981794!3d28.42000855358143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x392268e1ea56c71d%3A0x5c6f6bce843400a5!2sRahim%20Yar%20Khan%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2sus!4v1629988609326!5m2!1sen!2sus"
+                    width="550" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            </div>
+
+            <div class="intoduction">
+                <label for="">
+                    <h2 class="message">Write me a message</h2>
+                    <div class="emailname"> <input class="introducton-email" class="introducton-email" type="text"
+                            placeholder="Name*" required>
+                        <input class="introducton-email" type="Email" placeholder="Email" required>
+                    </div><br>
+                    <textarea class="textbox" name="" id="" cols="60" rows="15" placeholder="Your message here"
+                        required></textarea>
+                    <br>
+                    <input class="submit" type="submit">
+                </label>
+            </div>
+        </div>
     </div>
 
+
 </body>
+
 
 </html>

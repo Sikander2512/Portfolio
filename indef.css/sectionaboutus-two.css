@@ -103,6 +103,7 @@
 .aboutussectionheadingtxt{
     margin-left: 1.9375rem;
     margin-top: 2rem;
+    margin-right: 2rem;
 }
 @media(max-width:550px){
     .aboutus-section2{
@@ -112,7 +113,11 @@
         align-items: center;
         padding: 6rem 0rem;
         margin-top: 2rem;
-        row-gap: 7.0625rem;  
+        row-gap: 7.0625rem;
+        background: url(../pics/skill-bg-1.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .aboutussectionheadingtxt{
         width: 300px;

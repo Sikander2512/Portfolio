@@ -64,6 +64,7 @@ a {
         width: 24px;
         height: 2px;
         margin-bottom: .25875rem;
+        cursor: pointer;
     }
 
     .open .hamburger :nth-child(2) {

@@ -17,11 +17,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .simpletexthome-two{
-    font-size: 14px;
-    color: gray;
-    font-weight: lighter;
+    font-size: 1rem;
+    color: rgb(128, 92, 92);
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
+    text-align: justify;
     
 }
 .creativity{
@@ -29,7 +29,7 @@
     padding-top: 4rem;
     border-radius: 8px;
     width: fit-content;
-    background:rgb(255, 255, 255);
+    background: rgb(245, 240, 240);
     border: solid lightgray 0.5px;
 }
 .subdiv{
@@ -48,12 +48,13 @@
     text-align: center;
 }
 .simpletexthometwo{
-    font-size: 16px;
-    color: gray;
-    font-weight: lighter;
+    font-size: 1rem;
+    color: rgb(128, 92, 92);
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5rem;
+    line-height: 1.6rem;
     text-align: justify;
+    margin-left: .825rem;
+    margin-right: .825rem;
     
 }
 .rotate{

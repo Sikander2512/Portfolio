@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .aboutus-section2 {
     background: url(../pics/skill-bg-1.jpg);
     background-position: center center;
@@ -86,14 +90,15 @@
    grid-template-columns: 1fr 1fr;
    padding: 12rem 0rem;
    margin-top: 3rem;
-
-
+   
+   
 }
 .parentaboutus-performence{
     display: grid;
     grid-template-columns: 1fr;
     margin-right: 1.9375rem;
     margin-top: 2rem;
+
 }
 .aboutussectionheadingtxt{
     margin-left: 1.9375rem;
@@ -105,9 +110,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 8rem 0rem;
+        padding: 6rem 0rem;
         margin-top: 2rem;
-        row-gap: 2.0625rem;  
+        row-gap: 7.0625rem;  
     }
     .aboutussectionheadingtxt{
         width: 300px;
@@ -117,9 +122,10 @@
         width: 18.125rem;
         margin-left: 0;
         margin-right: 0;
+        margin-top: 1rem;
     }
     .aboutus2-boldtxt{
-        font-size: 2.6rem;
+        font-size: 2.4rem;
         font-family: 'Open Sans';
         color: white;
         line-height: 1.2;

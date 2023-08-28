@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .aboutus-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -31,7 +35,7 @@
 }
 
 .aboutus-font {
-    font-size: 1.125rem;
+    font-size: 1rem;
     color: rgb(128, 92, 92);
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6rem;

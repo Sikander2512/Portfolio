@@ -44,7 +44,6 @@ hr{
     margin-top: 2rem;
 }
 .sec-one-logo{
-    margin-left: .825rem;
     cursor: pointer;
 }
 @media(max-width:500px){

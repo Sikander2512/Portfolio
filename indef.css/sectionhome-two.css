@@ -91,4 +91,8 @@
         text-align: justify;
     
     }
+    .simpletexthometwo{
+        text-align: center;
+        width: fit-content;
+    }
 }

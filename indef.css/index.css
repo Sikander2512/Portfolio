@@ -32,11 +32,15 @@ a {
 
 .nav-img {
     display: block;
-  ;
+  
 }
 
 .imgnav {
     width: 7.25rem;
+    height: 2rem;
+    object-fit: cover;
+    object-position: center;
+    margin-left: .825rem;
 }
 
 .hamburger span {
@@ -100,6 +104,9 @@ a {
     .imgnav {
         width: 4.25rem;
         margin-left: .625rem;
+        height: 1rem;
+        object-fit: cover;
+        object-position: center;
     }
 
     .nav-img {

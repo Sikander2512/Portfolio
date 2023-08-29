@@ -38,15 +38,14 @@
     font-family: "Open Sans", Sans-serif;
     font-size: 18px;
     color: #615978;
-    transition: all 0.3s ease-in-out;
     text-align: justify;
 }
 
 .webdevelpment {
 
-    border-width: 1px 1px 1px 1px;
+    border-width: .0625rem;
     border-color: #FFFFFF;
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 8px ;
     background-color: #FFFFFF;
     width: 25rem;
     padding: 3rem 1.5rem;
